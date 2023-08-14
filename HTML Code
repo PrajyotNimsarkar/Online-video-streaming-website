@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Video Sharing Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 5px 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        main {
+            padding: 20px;
+        }
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .video {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+            flex-basis: calc(33.33% - 20px);
+            box-sizing: border-box;
+        }
+        .video img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PVN-Tube</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#music">Music</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Education</h2>
+        <div id="education" class="section">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/pg19Z8LL06w " allowfullscreen></iframe>
+                <h3>DOCKER</h3>
+                <p>Techworld with Nana</p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/s_o8dwzRlu4" allowfullscreen></iframe>
+                <h3>KUBERNETES</h3>
+                <p>Techworld with Nana</p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/rv4LlmLmVWk" allowfullscreen></iframe>
+                <h3>MICROSERVICES</h3>
+                <p>Techworld with Nana</p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/Iyfntbj2jWU" allowfullscreen></iframe>
+                <h3>SOFTWARE DEVELOPMENT LIFE CYCLE</h3>
+                <p>Techworld with Nana</p>
+            </div>
+        </div>
+        <h2>Movies</h2>
+        <div id="Movies" class="section">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ NU1PqiUyCfA " allowfullscreen></iframe>
+                <h3>MICHAEL</h3>
+                <p>South movie</p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ l1sbRn6Avo8" allowfullscreen></iframe>
+                <h3>HACKED</h3>
+                <p>Bollywood movie</p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ xt3m9ixBC1A " allowfullscreen></iframe>
+                <h3>SARLE- EK KOTI</h3>
+                <p>Marathi movie</p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ lRTH5DnTY-I " allowfullscreen></iframe>
+                <h3>THE DETECTIVE</h3>
+                <p>Hollywood movie</p>
+            </div>
+        </div>
+        <h2>Music</h2>
+
+        <div id="MUSIC" class="section">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/aRzbHxJZSTo" allowfullscreen></iframe>
+                <h3>BIKHRA</h3>
+                <p>Rovalio & Abdul Hannan</p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ZAp3xJ7GsY8" allowfullscreen></iframe>
+                <h3>OBSSESSED</h3>
+                <p>Abhijay Sharma</p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/jn77BhLMGc8" allowfullscreen></iframe>
+                <h3>PARSHAWAN</h3>
+                <p>Harnoor</p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/6x8HVdS_TJs" allowfullscreen></iframe>
+                <h3>TERE NAINO ME</h3>
+                <p>Bilz & Kashif</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
